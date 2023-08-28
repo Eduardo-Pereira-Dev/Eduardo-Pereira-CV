@@ -1,0 +1,257 @@
+@charset "UTF8";
+
+:root{
+
+    --cor1: #E2E2E2;
+    --cor2: #009688;
+    --cor3: #FFFFFF;
+    --cor4: #52748F;
+    --cor5: #174972;
+    
+}
+
+body{
+    margin: 0%;
+    padding: 0.5%;
+    height: 820px;
+    background-color: var(--cor1);
+    position: relative;
+}
+
+#content1{
+    margin: 0%;
+    padding: 0%;
+    background-color: var(--cor3);
+    width: 20%;
+    box-shadow: 1px 2px 3px 4px rgba(0, 0, 0, 0.171);
+    position: absolute;
+    left: 0.5%;;
+}
+#header h1{
+    background-color: var(--cor2);
+    margin: 0%;
+    padding: 15.5% 0% 0% 2%;
+    color: var(--cor3);
+    font-family: Inter;
+    font-size: 1.7rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+#skills{
+    padding: 0% 2% 0% 2%;
+}
+#skills p{
+    margin: 2%;
+    color: #000;
+    font-family: Inter;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+#skills h2{
+    color: #000;
+    font-family: Inter;
+    font-size: 1.9rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.graphic{
+
+    width: 100%;
+    background-color: var(--cor1);
+    color: var(--cor3);
+    border-radius: 0.5625rem;
+
+}
+#percentage-figma{
+    width: 80%;
+    background-color: var(--cor2);
+    text-align: center;
+    border-radius: 0.5625rem;
+}
+#percentage-html{
+    width: 80%;
+    background-color: var(--cor2);
+    text-align: center;
+    border-radius: 0.5625rem;
+}
+#percentage-css{
+    width: 80%;
+    background-color: var(--cor2);
+    text-align: center;
+    border-radius: 0.5625rem;
+}
+#percentage-java{
+    width: 50%;
+    background-color: var(--cor2);
+    text-align: center;
+    border-radius: 0.5625rem;
+}
+#percentage-mysql{
+    width: 50%;
+    background-color: var(--cor2);
+    text-align: center;
+    border-radius: 0.5625rem;
+}
+#portuguese{
+    text-align: center;
+    background-color: var(--cor2);
+}
+#portuguese p{
+    color: var(--cor3);
+}
+#english{
+    text-align: center;
+    border-radius: 0.5625rem;
+}
+#percentage-english{
+    width: 80%;
+    background-color: var(--cor2);
+    border-radius: 0.5625rem;
+}
+
+#contact{
+    margin: 5% 0% 5% 0%; 
+    text-align: center; 
+}
+#contact a{
+    padding: 0% 6%;
+}
+
+#content2{
+    width: 78.5%;
+    position: absolute;
+    right: 0.5%;
+    background-color: var(--cor3);
+    box-shadow: 1px 2px 3px 4px rgba(0, 0, 0, 0.171);
+}
+#experience-title{
+    font-size: 1.5rem;
+    margin-left: 0.5%;
+}
+#title-job{
+    margin: 0% 0% 0% 2.5%;
+    color: #000;
+    font-family: Inter;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+
+    padding: 0% 0.5%; 
+}
+#time-job{
+    margin: 0% 0% 0% 2.5%;
+    color: #000;
+    font-family: Inter;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+
+    padding: 0% 0.5%;
+}
+#about-job{
+    text-align: justify;
+    color: #000;
+    font-family: Inter;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+
+    padding: 0% 0.5%;
+    margin: 1% 2.5% 1% 2.5%;
+}
+#education-title1{
+    font-size: 1.5rem;
+    margin-left: 0.5%;
+}
+#experience-title1{
+    font-size: 1.5rem;
+    margin-left: 0.5%;
+}
+#title-education{
+    margin: 0% 0% 0% 2.5%;
+    color: #000;
+    font-family: Inter;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+
+    padding: 0% 0.5%; 
+}
+#time-education{
+    margin: 0% 0% 0% 2.5%;
+    color: #000;
+    font-family: Inter;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+
+    padding: 0% 0.5%;
+}
+#about-education{
+    text-align: justify;
+    color: #000;
+    font-family: Inter;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+
+    padding: 0% 0.5%;
+    margin: 1% 2.5% 1% 2.5%;
+}
+#content3{
+    background-color: var(--cor3);
+    box-shadow: 1px 2px 3px 4px rgba(0, 0, 0, 0.137);
+    width: 78.5%;
+    position: absolute;
+    right: 0.5%;
+    bottom: 8%;
+}
+.retangle p{
+    background-color: var(--cor1);
+    margin: 1% 1%;
+    padding: 1%;
+}
+.retangle p img{
+    padding: 0% 1% 0% 3%;
+}
+.retangle p a{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-right: 3%;
+}
+#footer{
+    background-color: var(--cor2);
+    color: var(--cor1);
+    width: 99%;
+    text-align: center;
+    position: absolute;
+    bottom: 0%;
+}
+
+@media (max-width: 600px){
+    #content1{
+        position: relative;
+        width: 99%;
+    }
+    #content2{
+        position: relative;
+        width: 99%;
+    }
+    #content3{
+        margin-top: 21%;
+        position: relative;
+        width: 99%;
+    }
+    #footer{
+        position: relative;
+    }
+}
